@@ -1,0 +1,42 @@
+/* CircleButtons.css */
+
+.circle-buttons-container {
+    position: absolute;
+    top: 72%;
+    right: 70px;
+    left: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .circle-button-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .circle-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding:10px; */
+    margin: 8px;
+  }
+  
+  
+  .circle-button button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    background-color: Orange; /* Adjust the button color */
+    color: #fff; /* Adjust the text color */
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .dark-mode {
+    background-color: #000; /* Change the background color to dark */
+    color: #fff; /* Change the text color to white or a suitable color for dark mode */
+  }

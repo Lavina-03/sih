@@ -1,0 +1,11 @@
+/* src/VerticalLine.css */
+
+.vertical-line {
+    width: 2px; /* Width of the vertical line */
+    height: 100vh; /* Height of the line (100% of the viewport height) */
+    background-color: orange; /* Color of the line (black in this example) */
+    position: absolute;
+    left: 77%; /* Position the line in the center of the page */
+    transform: translateX(-70%); /* Adjust the position to center it properly */
+  }
+  

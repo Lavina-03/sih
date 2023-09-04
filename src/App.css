@@ -27,6 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+h1{
+  position: relative;
+  right:161px;
+  top: 10px;
+  color: Black;
+  padding: 10px;
+}
+ p{
+  position: absolute;
+  right:250px;
+  top: 28px;
+  color: Black;
+  padding: 80px;
+  font-size: 18px; 
+  line-height: 2.5; 
+} 
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,7 @@
+.horizontal-line {
+    width: 77%; /* Span the full width of the page */
+    height: 2px;
+    background-color: orange; /* Change this to your desired line color */
+    margin-top: 20px; /* Adjust the margin to control the spacing */
+  }
+ 
